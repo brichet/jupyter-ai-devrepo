@@ -3,7 +3,7 @@ name = "jupyter-ai-devrepo"
 version = "0.0.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10, <3.14"
 dependencies = [
     # environment requirements
     "pip",
@@ -19,6 +19,7 @@ dependencies = [
     "jupyter_ai_jupyternaut",
     "jupyter_ai_claude_code",
     "jupyter_ai_acp_client",
+    "jupyter_server_mcp",
     # test dependencies
     "coverage",
     "pytest",
@@ -38,6 +39,7 @@ jupyterlab_commands_toolkit = { workspace = true }
 jupyter_ai_jupyternaut = { workspace = true }
 jupyter_ai_claude_code = { workspace = true }
 jupyter_ai_acp_client = { workspace = true }
+jupyter_server_mcp = { workspace = true }
 
 [tool.uv.workspace]
 members = ["jupyter*/", "jupyter-chat/python/*"]
