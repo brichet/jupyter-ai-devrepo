@@ -20,6 +20,7 @@ dependencies = [
     "jupyter_ai_claude_code",
     "jupyter_ai_acp_client",
     "jupyter_server_mcp",
+    "jupyter_ai_tools",
     # test dependencies
     "coverage",
     "pytest",
@@ -40,6 +41,7 @@ jupyter_ai_jupyternaut = { workspace = true }
 jupyter_ai_claude_code = { workspace = true }
 jupyter_ai_acp_client = { workspace = true }
 jupyter_server_mcp = { workspace = true }
+jupyter_ai_tools = { workspace = true }
 
 [tool.uv.workspace]
 members = ["jupyter*/", "jupyter-chat/python/*"]
