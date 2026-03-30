@@ -1,3 +1,6 @@
+# directive: load .env if it exists
+set dotenv-load
+
 ############################################################################
 # Global recipes that work anywhere under this devrepo
 
